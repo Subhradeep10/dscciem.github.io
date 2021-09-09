@@ -117,7 +117,7 @@ a:hover {
 
 .btn {
   margin: 15px 15px 5px 0px;
-  color: #fff;
+  color: var(--primary-color);;
   background: rgb(29, 72, 212);
   text-decoration: none;
   padding: 10px;
@@ -125,7 +125,7 @@ a:hover {
 
 .add-to-home{
   border: none;
-  border-color: #fafafa;
+  border-color: var(--primary-color);;
   cursor: pointer;
   font-size : 15px
 }
@@ -481,7 +481,7 @@ a.btn-rounded:hover {
 .hero-button {
   background: #2f5be7;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  color: #ffffff;
+  color: var(--primary-color);;
   padding: 12px 18px;
   font-size: 14px;
   border-radius: 2px;
@@ -553,7 +553,7 @@ ul {
   cursor: pointer;
   width: 40px;
   height: 40px;
-  color: #fff;
+  color: var(--primary-color);;
   background-color: #2f5be7;
   display: none;
   -webkit-border-radius: 60px;
@@ -574,7 +574,7 @@ ul {
 }
 
 .gray-bg {
-  background-color: #fafafa;
+  background-color: var(--primary-color);;
 }
 .social-links > a {
   padding: 1.2rem;
@@ -603,7 +603,7 @@ ul {
 .nav-header {
   position: fixed;
   width: 100%;
-  background-color: #fff;
+  background-color: var(--primary-color);;
   -webkit-box-shadow: 0 8px 6px -6px #999;
   -moz-box-shadow: 0 8px 6px -6px #999;
   box-shadow: 0 8px 6px -6px #999;
