@@ -21,6 +21,11 @@ body {
   /* padding-top: 20px; */
 }
 
+:root{
+  --primary-color : #ffffff;
+  --secondary-color : #0f0f3b;
+}
+
 *,
 ::after,
 ::before {
