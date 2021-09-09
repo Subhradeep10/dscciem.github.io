@@ -126,9 +126,10 @@ a:hover {
   opacity: 0.8;
 }
 
+
 .btn {
   margin: 15px 15px 5px 0px;
-  color: var(--primary-color);;
+  color: white;
   background: rgb(29, 72, 212);
   text-decoration: none;
   padding: 10px;
