@@ -10,7 +10,7 @@ body {
 body {
   font-family: "Google Sans", sans-serif;
   font-size: 1rem;
-  color: #637282;
+  color: var(--secondary-color);
   overflow-x: hidden;
   font-weight: normal;
   letter-spacing: -0.3px;
@@ -23,7 +23,14 @@ body {
 
 :root{
   --primary-color : #ffffff;
-  --secondary-color : #0f0f3b;
+  --secondary-color : #959ba1;
+
+  
+}
+
+.dark-theme{
+  --primary-color : #0a0a22;
+  --secondary-color : #ffffff;
 }
 
 *,
@@ -49,6 +56,10 @@ h6,
   color: var(--secondary-color);
   font-family: "Google Sans", sans-serif;
   font-weight: 700;
+}
+
+h2{
+  color: var(--secondary-color);
 }
 
 p {
