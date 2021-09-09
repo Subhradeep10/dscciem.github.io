@@ -614,3 +614,9 @@ ul {
 #overview {
   padding-top: 5rem;
 }
+
+#theme{
+  width: 20px;
+  cursor: pointer;
+  height: 20px;
+}
